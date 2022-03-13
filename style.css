@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 5rem;
+    background-color:#EFFFFD ;
+}
+
+
+nav:hover{
+    background-color: #fff;
+}
+nav ul{
+    float: right;
+    line-height: 5rem;
+    display: flex;
+}
+
+nav ul li{
+   list-style-type: none;
+   padding-right: 1rem;
+   margin-right: 1rem;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #66bfbf;
+}
+
+
+.introduction{
+    background-color: #EFFFFD;
+    padding: 3% 0 0 0;
+    text-align: center;
+    color: #66bfbf;
+}
+
+
+.cloud-img{
+    padding-left: 400px;
+    margin-bottom: 2%;
+}
+
+
+.cloud-img:hover{
+    width: 90%;
+    animation: step-start;
+}
+
+.head{
+    font-size: 3rem;
+    font-family: 'Vujahday Script', cursive;
+}
+
+
+.descrip{
+    line-height: 2;
+}
+
+.c-img{
+    padding-right: 400px;
+    margin-top: 2%;
+}
+.c-img:hover{
+    width: 90%;
+}
+
+
+#about{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.about-head{
+    color: #66bfbf;
+    margin: 2% 0 2% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.about-descrip{
+    line-height: 2rem;
+    font-size: 18px;
+    color: #40514e;
+    margin-bottom: 5%;
+}
+
+
+
+hr{
+    border-top: 5px dotted red;
+    background-color: #fff;
+    width: 5%;
+    margin: auto 47%;
+}
+
+
+#IT-skills{
+    background-color:#EFFFFD ;
+    margin-top: 2rem;
+}
+
+
+.skill-head{
+    text-align: center;
+    padding: 2rem 0 ;
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.skill{
+    border: 1px #ddd solid;
+    background-color: #ddd;
+    text-align: end;
+    line-height: 2rem;
+    height: 2rem;
+    width: 90%;
+    margin-left: 4%;
+}
+
+
+.html{
+    background-color: #f06529;
+    width: 90%;
+}
+
+
+.css{
+    background-color: #264de4;
+    width: 80%;
+}
+
+
+.bs{
+    background-color: #563d7c;
+    width: 65%;
+}
+
+
+
+
+#footer{
+    text-align: center;
+    color: grey;
+    padding: 7% 15%;
+}
+
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+
+@media (max-width:1000px){
+    .head{
+        font-size: 1.5rem;
+    }
+    .cc-img{
+        width: 100px;
+        
+    }
+}
